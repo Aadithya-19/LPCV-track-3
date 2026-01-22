@@ -6,7 +6,7 @@ This notebook implements an **automated evaluation pipeline** to quantify the si
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 The primary goal of this tool is to evaluate how well an AI model explains its reasoning when detecting AI-generated images. Instead of simple keyword matching, this script uses a second LLM to perform a **semantic and logical comparison**.
 
@@ -14,7 +14,7 @@ The primary goal of this tool is to evaluate how well an AI model explains its r
 
 ---
 
-## 🛠️ Features
+##  Features
 
 * **Semantic Scoring:** Moves beyond BLEU/ROUGE scores by evaluating the *meaning* and *logic* of the output.
 * **Structured Evaluation:** The judge model follows a specific 6-step rubric:
@@ -29,7 +29,7 @@ The primary goal of this tool is to evaluate how well an AI model explains its r
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 To run this notebook, you need to install the following dependencies:
 
